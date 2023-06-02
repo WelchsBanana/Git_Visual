@@ -1,11 +1,13 @@
-#include"GitExample.h"
 #include<iostream>
+#include"Function.h"
+
 using namespace std;
 
 void main()
 {
-	Function *function = new Function;
-	int num = function->num;
+	Function *function = new Function;// °´Ã¼ »ý¼º
+	int num = function->sum(10, 20);
 
 	cout << num;
+
 }
